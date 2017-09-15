@@ -63,8 +63,6 @@
  <echo>package phase</echo>
  </tasks>
  </configuration>
-TUTORIALS POINT
-Simply Easy Learning Page 17
  </execution>
  <execution>
  <id>id.deploy</id>
