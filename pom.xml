@@ -23,7 +23,7 @@
                         <id>run</id>
                         <phase>generate-resources</phase>
                         <goals>
-                            <goal>run</goal>
+                            <goal>compile</goal>
                         </goals>
                         <configuration>
                                 <exec>
