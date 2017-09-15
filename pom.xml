@@ -27,9 +27,9 @@
                         </goals>
                         <configuration>
                             <target>
-                                <echo message="Gulp!" />
-                                <exec executable="gulp">
-                                    <arg value="build" />
+                                <echo message/>
+                                <exec>
+  				 < executable>git --version</executable>
                                 </exec>
                             </target>
                         </configuration>
