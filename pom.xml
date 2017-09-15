@@ -11,10 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-    <build>
-        <plugins>
-		  <build> 
+    </properties> 
         <plugins> 
           <plugin> 
              <groupId>org.apache.maven.plugins</groupId>
