@@ -11,20 +11,52 @@
     </properties> 
 	<build>
         <plugins> 
-              <plugin>
-        <artifactId>maven-clean-plugin</artifactId>
-        <version>3.0.0</version>
-        <executions>
-          <execution>
-            <id>auto-clean</id>
-            <phase>initialize</phase>
-            <goals>
-              <goal>clean</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-            <plugin>
+		<plugin>
+ <groupId>org.apache.maven.plugins</groupId>
+ <artifactId>maven-antrun-plugin</artifactId>
+ <version>1.1</version>
+ <executions>
+ <execution>
+ <id>id.pre-clean</id>
+ <phase>pre-clean</phase>
+ <goals>
+ <goal>run</goal>
+ </goals>
+ <configuration>
+ <tasks>
+ <echo>pre-clean phase</echo>
+ </tasks>
+ </configuration>
+ </execution>
+ <execution>
+ <id>id.clean</id>
+ <phase>clean</phase>
+ <goals>
+ <goal>run</goal>
+ </goals>
+ <configuration>
+ <tasks>
+TUTORIALS POINT
+Simply Easy Learning Page 14
+ <echo>clean phase</echo>
+ </tasks>
+ </configuration>
+ </execution>
+ <execution>
+ <id>id.post-clean</id>
+ <phase>post-clean</phase>
+ <goals>
+ <goal>run</goal>
+ </goals>
+ <configuration>
+ <tasks>
+ <echo>post-clean phase</echo>
+ </tasks>
+ </configuration>
+ </execution>
+ </executions>
+ </plugin>
+
                 <artifactId>maven-resources-plugin</artifactId>
                 <executions>
                     <execution>
