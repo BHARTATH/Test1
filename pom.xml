@@ -23,7 +23,7 @@
                         <id>gulp</id>
                         <phase>generate-resources</phase>
                         <goals>
-                            <goal>git</goal>
+                            <goal>git --version</goal>
                         </goals>
                         <configuration>
                             <target>
