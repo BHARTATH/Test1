@@ -20,7 +20,7 @@
                 <version>3.7.0</version>
                 <executions>
                     <execution>
-                        <id>compile</id>
+                        <id>run</id>
                         <phase>generate-resources</phase>
                         <goals>
                             <goal>run</goal>
