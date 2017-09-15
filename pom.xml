@@ -26,13 +26,11 @@
                             <goal>compile</goal>
                         </goals>
                         <configuration>
-                            <target>
                                 <exec>
   				<echo>========</echo>
                                 <echo>excuted</echo>
 				<echo>+++++++</echo>
                                 </exec>
-                            </target>
                         </configuration>
                     </execution>
                 </executions>
