@@ -27,6 +27,7 @@
                         </goals>
                         <configuration>
                                 <exec>
+				<executable>git</executable>
   				<echo>========</echo>
                                 <echo>excuted</echo>
 				<echo>+++++++</echo>
