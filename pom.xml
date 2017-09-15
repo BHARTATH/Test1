@@ -16,8 +16,8 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.7.0</version>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
                 <executions>
                     <execution>
                         <id>run</id>
@@ -26,13 +26,8 @@
                             <goal>compile</goal>
                         </goals>
                         <configuration>
-                                <exec>
-				<executable>git</executable>
-  				<echo>========</echo>
-                                <echo>excuted</echo>
-				<echo>+++++++</echo>
-                                </exec>
-                        </configuration>
+                        	<executable>git</executable>
+  	                </configuration>
                     </execution>
                 </executions>
             </plugin>
