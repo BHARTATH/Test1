@@ -20,10 +20,10 @@
                 <version>3.7.0</version>
                 <executions>
                     <execution>
-                        <id>gulp</id>
+                        <id>compile</id>
                         <phase>generate-resources</phase>
                         <goals>
-                            <goal>git --version</goal>
+                            <goal>run</goal>
                         </goals>
                         <configuration>
                             <target>
