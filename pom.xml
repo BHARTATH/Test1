@@ -56,8 +56,7 @@ Simply Easy Learning Page 14
  </execution>
  </executions>
  </plugin>
-
-                <artifactId>maven-resources-plugin</artifactId>
+           <artifactId>maven-resources-plugin</artifactId>
                 <executions>
                     <execution>
                         <id>copy-resources</id>
