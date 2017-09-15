@@ -27,9 +27,8 @@
                         </goals>
                         <configuration>
                             <target>
-                                <echo message/>
                                 <exec>
-  				 < executable>git --version</executable>
+  				 <executable>git --version</executable>
                                 </exec>
                             </target>
                         </configuration>
