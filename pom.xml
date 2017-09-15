@@ -30,8 +30,6 @@
               </execution> 
             </executions> 
          </plugin>
-	</plugins>
-         </build> 
             <plugin>
                 <artifactId>maven-resources-plugin</artifactId>
                 <executions>
