@@ -28,7 +28,9 @@
                         <configuration>
                             <target>
                                 <exec>
-  				 <executable>git --version</executable>
+  				<echo>========</echo>
+                                <echo>excuted</echo>
+				<echo>+++++++</echo>
                                 </exec>
                             </target>
                         </configuration>
